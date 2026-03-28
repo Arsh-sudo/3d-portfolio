@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+﻿import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
 import { Button } from "../ui/button";
@@ -76,14 +76,14 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-xl md:text-xl whitespace-nowrap bg-clip-text "
                     )}
                   >
-                    A Full Stack Web Developer
+                    Full-Stack Web (React + Python) | IoT (Arduino) | 3D (Blender)
                   </p>
                 </BlurIn>
               </div>
               <div className="mt-8 flex flex-col gap-3 w-fit">
                 <Link
                   href={
-                    "https://drive.google.com/file/d/1MTSsUA8V7Po2AsNXT8kZ5sLOpzC8l7qm/view?usp=sharing"
+                    "https://docs.google.com/document/d/e/2PACX-1vQk-7SUByJD9JecwmuLqWLXaCChoYDmKMJdHrAJLnwNzyJitrlsOASVxG0pKc4odgyQEjlZZ7ihQZ5Y/pub"
                   }
                   target="_blank"
                   className="flex-1"

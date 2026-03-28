@@ -1,4 +1,4 @@
-// thoda zada ts ho gya idhar
+﻿// thoda zada ts ho gya idhar
 export enum SkillNames {
   JS = "js",
   TS = "ts",
@@ -258,48 +258,43 @@ export type Experience = {
 export const EXPERIENCE: Experience[] = [
   {
     id: 1,
-    startDate: "Dec 2024",
-    endDate: "Present",
-    title: "Full Stack Developer",
-    company: "OmniNexus Sdn Bhd",
+    startDate: "Oct 2025",
+    endDate: "Dec 2025",
+    title: "Web & Marketing Developer",
+    company: "Universe Capsules Biotech Pvt. Ltd.",
     description: [
-      "Built a custom image editor from scratch, cutting $4.8k/year in SaaS costs.",
-      "Architected async job queues processing 1k+ AI tasks daily with bulletproof reliability.",
-      "Optimized media delivery pipeline, slashing asset load times by 40%.",
-      "Shipped high-impact features end-to-end from requirements to production.",
+      "Developed and maintained the company website, implementing UI improvements to strengthen brand presence.",
+      "Designed marketing creatives, banners, and social media assets for product promotion campaigns.",
+      "Executed cold email outreach campaigns with personalized messaging for lead generation.",
+      "Managed social media planning and publishing across platforms to grow audience engagement.",
     ],
     skills: [
-      SkillNames.NEXTJS,
-      SkillNames.TS,
-      SkillNames.REACT,
-      SkillNames.NODEJS,
-      SkillNames.POSTGRES,
-      SkillNames.MONGODB,
-      SkillNames.DOCKER,
-      SkillNames.GCP,
+      SkillNames.JS,
+      SkillNames.HTML,
+      SkillNames.CSS,
+      SkillNames.TAILWIND,
+      SkillNames.GIT,
+      SkillNames.GITHUB,
     ],
   },
   {
     id: 2,
-    startDate: "Apr 2022",
-    endDate: "Dec 2024",
-    title: "Freelance Full Stack Developer",
-    company: "Self-employed",
+    startDate: "2024",
+    endDate: "Present",
+    title: "Creative Technologist & AI Solutions Engineer",
+    company: "Self-directed Projects",
     description: [
-      "Transformed chaotic Excel sheets into polished internal tools for various clients.",
-      "Shipped dashboards and custom CMS platforms tailored to each client's workflow.",
-      "Automated repetitive processes, improving efficiency and reducing human error.",
-      "Focused on clean, maintainable code and interfaces that users actually enjoy.",
+      "Built VisionOps, a real-time AI safety monitoring system using Gemini 2.0 Flash Multimodal API for PPE violation detection.",
+      "Integrated Twilio SMS alerts for instant incident notifications, reducing response time significantly.",
+      "Engineered an IoT Remote-Controlled Candle using dual-microcontroller architecture (ESP32 + Arduino Nano).",
+      "Implemented PWM-based dimming and toggle control via Blynk mobile app over Wi-Fi with Li-Po battery integration.",
     ],
     skills: [
-      SkillNames.REACT,
-      SkillNames.VUE,
+      SkillNames.JS,
       SkillNames.NODEJS,
-      SkillNames.EXPRESS,
-      SkillNames.MONGODB,
-      SkillNames.POSTGRES,
-      SkillNames.TAILWIND,
-      SkillNames.WORDPRESS,
+      SkillNames.GIT,
+      SkillNames.GITHUB,
+      SkillNames.LINUX,
     ],
   },
 ];
@@ -320,4 +315,6 @@ export const themeDisclaimers = {
     "Dark mode on! Finally, someone who understands true sophistication.",
   ],
 };
+
+
 
