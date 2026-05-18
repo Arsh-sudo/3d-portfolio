@@ -39,7 +39,7 @@ const links: Link[] = [
   {
     title: 'Certificates',
     href: '/certificates',
-    thumbnail: '/assets/nav-link-previews/blog.png',
+    thumbnail: '/assets/nav-link-previews/certificates.png',
   },
   {
     title: 'Contact',
