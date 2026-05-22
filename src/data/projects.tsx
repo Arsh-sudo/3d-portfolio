@@ -300,5 +300,40 @@ const projects: Project[] = [
       );
     },
   },
+  {
+    id: "apkguard",
+    category: "Cybersecurity / AI",
+    title: "APKGuard",
+    src: "/assets/projects-screenshots/apkguard/landing.png",
+    screenshots: ["landing.png"],
+    skills: {
+      frontend: [
+        PROJECT_SKILLS.react,
+      ],
+      backend: [
+        PROJECT_SKILLS.python,
+        PROJECT_SKILLS.node,
+        PROJECT_SKILLS.docker,
+      ],
+    },
+    live: "https://apk-guard.vercel.app",
+    github: "https://github.com/Arsh-sudo/APKGuard",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono text-2xl text-center">
+            GenAI-powered Android threat intelligence in under 90 seconds
+          </TypographyP>
+          <TypographyP className="font-mono">
+            India saw a 200%+ rise in fake banking APKs in 2023-24. APKGuard reverse-engineers
+            any APK, extracts 80+ features, scores it 0-100 using an XGBoost ML classifier
+            (92.5% accuracy), and uses Llama 3.2 to explain WHY it's malicious in plain English.
+            Built for the PSB Cybersecurity, Fraud & AI Hackathon 2026 (Bank of India × IIT Hyderabad).
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+        </div>
+      );
+    },
+  },
 ];
 export default projects;
