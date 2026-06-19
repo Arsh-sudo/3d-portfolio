@@ -268,6 +268,7 @@ const projects: Project[] = [
         </div>
       );
     },
+    
   },
   {
     id: "iot-candle",
@@ -329,6 +330,88 @@ const projects: Project[] = [
             any APK, extracts 80+ features, scores it 0-100 using an XGBoost ML classifier
             (92.5% accuracy), and uses Llama 3.2 to explain WHY it's malicious in plain English.
             Built for the PSB Cybersecurity, Fraud & AI Hackathon 2026 (Bank of India × IIT Hyderabad).
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+        </div>
+      );
+    },
+  },
+  {
+    id: "remind",
+    category: "AI / Multi-Agent Systems",
+    title: "REMIND",
+    src: "/assets/projects-screenshots/remind/landing.png",
+    screenshots: ["landing.png"],
+    skills: {
+      frontend: [],
+      backend: [PROJECT_SKILLS.python],
+    },
+    live: "https://github.com/Arsh-sudo",
+    github: "https://github.com/Arsh-sudo",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono text-2xl text-center">
+            Multi-Agent Research System
+          </TypographyP>
+          <TypographyP className="font-mono">
+            A multi-agent AI architecture that delegates complex research tasks to
+            specialized, autonomous agents, generating highly structured, verified
+            reports complete with a computed Trust Score.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+        </div>
+      );
+    },
+  },
+  {
+    id: "terra",
+    category: "Full-Stack / Sustainability",
+    title: "TERRA",
+    src: "/assets/projects-screenshots/terra/landing.png",
+    screenshots: ["landing.png"],
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind],
+      backend: [PROJECT_SKILLS.node],
+    },
+    live: "https://github.com/Arsh-sudo",
+    github: "https://github.com/Arsh-sudo",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono text-2xl text-center">
+            Carbon Footprint Tracker
+          </TypographyP>
+          <TypographyP className="font-mono">
+            An interactive dashboard that lets users monitor daily carbon emissions
+            and visualize actionable insights to reduce their environmental impact.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+        </div>
+      );
+    },
+  },
+  {
+    id: "heartspace",
+    category: "Mobile / Privacy",
+    title: "Heartspace",
+    src: "/assets/projects-screenshots/heartspace/landing.png",
+    screenshots: ["landing.png"],
+    skills: {
+      frontend: [],
+      backend: [],
+    },
+    live: "https://github.com/Arsh-sudo",
+    github: "https://github.com/Arsh-sudo",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono text-2xl text-center">
+            Secure, privacy-focused messaging app
+          </TypographyP>
+          <TypographyP className="font-mono">
+            A secure, privacy-focused mobile app for encrypted messaging and
+            interactive custom voice notes, built natively in Kotlin.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
         </div>

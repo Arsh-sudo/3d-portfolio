@@ -258,15 +258,47 @@ export type Experience = {
 export const EXPERIENCE: Experience[] = [
   {
     id: 1,
+    startDate: "2025",
+    endDate: "Mar 2027",
+    title: "Google Student Ambassador",
+    company: "Google",
+    description: [
+      "Facilitating technical workshops and promoting Google technologies to build a strong campus developer community.",
+      "Selected as a Google Student Ambassador for 2026, representing Google's developer programs on campus.",
+    ],
+    skills: [
+      SkillNames.JS,
+      SkillNames.GIT,
+      SkillNames.GITHUB,
+    ],
+  },
+  {
+    id: 2,
+    startDate: "2026",
+    endDate: "Present",
+    title: "Open Source Contributor",
+    company: "GirlScript Summer of Code (GSSoC)",
+    description: [
+      "Actively contributing to open-source projects, collaborating with maintainers, and resolving technical issues globally.",
+      "Resolved merge conflicts, CI issues, and code review feedback across multiple repositories.",
+    ],
+    skills: [
+      SkillNames.JS,
+      SkillNames.REACT,
+      SkillNames.GIT,
+      SkillNames.GITHUB,
+    ],
+  },
+  {
+    id: 3,
     startDate: "Oct 2025",
     endDate: "Dec 2025",
     title: "Web & Marketing Developer",
     company: "Universe Capsules Biotech Pvt. Ltd.",
     description: [
-      "Developed and maintained the company website, implementing UI improvements to strengthen brand presence.",
-      "Designed marketing creatives, banners, and social media assets for product promotion campaigns.",
-      "Executed cold email outreach campaigns with personalized messaging for lead generation.",
-      "Managed social media planning and publishing across platforms to grow audience engagement.",
+      "Optimized company website for B2B brand presence and executed personalized cold email campaigns for lead generation.",
+      "Designed marketing creatives, banners, and social media assets to support product promotion campaigns.",
+      "Managed social media planning and publishing across platforms to grow consistent audience engagement.",
     ],
     skills: [
       SkillNames.JS,
@@ -275,26 +307,6 @@ export const EXPERIENCE: Experience[] = [
       SkillNames.TAILWIND,
       SkillNames.GIT,
       SkillNames.GITHUB,
-    ],
-  },
-  {
-    id: 2,
-    startDate: "2024",
-    endDate: "Present",
-    title: "Creative Technologist & AI Solutions Engineer",
-    company: "Self-directed Projects",
-    description: [
-      "Built VisionOps, a real-time AI safety monitoring system using Gemini 2.0 Flash Multimodal API for PPE violation detection.",
-      "Integrated Twilio SMS alerts for instant incident notifications, reducing response time significantly.",
-      "Engineered an IoT Remote-Controlled Candle using dual-microcontroller architecture (ESP32 + Arduino Nano).",
-      "Implemented PWM-based dimming and toggle control via Blynk mobile app over Wi-Fi with Li-Po battery integration.",
-    ],
-    skills: [
-      SkillNames.JS,
-      SkillNames.NODEJS,
-      SkillNames.GIT,
-      SkillNames.GITHUB,
-      SkillNames.LINUX,
     ],
   },
 ];
