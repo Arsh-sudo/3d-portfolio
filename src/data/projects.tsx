@@ -376,14 +376,22 @@ const projects: Project[] = [
     id: "terra",
     category: "Full-Stack / Sustainability",
     title: "TERRA",
-    src: "/assets/projects-screenshots/terra/landing.png",
-    screenshots: ["landing.png"],
+    src: "/assets/projects-screenshots/terra/terra.png",
+    screenshots: ["terra.png"],
     skills: {
-      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind],
-      backend: [PROJECT_SKILLS.node],
+      frontend: [
+        PROJECT_SKILLS.react, 
+        PROJECT_SKILLS.framerMotion, 
+        PROJECT_SKILLS.tailwind,
+      ],
+      backend: [
+        PROJECT_SKILLS.node,
+        PROJECT_SKILLS.express,
+        PROJECT_SKILLS.firebase
+      ],
     },
-    live: "https://github.com/Arsh-sudo",
-    github: "https://github.com/Arsh-sudo",
+    live: "https://carbon-footprint-tracker-180858939674.asia-southeast1.run.app/",
+    github: "https://github.com/Arsh-sudo/TERRA---Carbon-Footprint-Tracker",
     get content() {
       return (
         <div>
@@ -403,14 +411,14 @@ const projects: Project[] = [
     id: "heartspace",
     category: "Mobile / Privacy",
     title: "Heartspace",
-    src: "/assets/projects-screenshots/heartspace/landing.png",
-    screenshots: ["landing.png"],
+    src: "/assets/projects-screenshots/heartspace/heartspace.png",
+    screenshots: ["heartspace.png"],
     skills: {
       frontend: [],
       backend: [],
     },
     live: "https://github.com/Arsh-sudo",
-    github: "https://github.com/Arsh-sudo",
+    github: "https://github.com/Arsh-sudo/heartspace",
     get content() {
       return (
         <div>
