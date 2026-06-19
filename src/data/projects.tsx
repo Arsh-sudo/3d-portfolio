@@ -340,14 +340,22 @@ const projects: Project[] = [
     id: "remind",
     category: "AI / Multi-Agent Systems",
     title: "REMIND",
-    src: "/assets/projects-screenshots/remind/landing.png",
-    screenshots: ["landing.png"],
+    src: "/assets/projects-screenshots/remind/remind.png",
+    screenshots: ["remind.png"],
     skills: {
-      frontend: [],
-      backend: [PROJECT_SKILLS.python],
+      frontend: [
+        PROJECT_SKILLS.react,
+        PROJECT_SKILLS.tailwind,
+        PROJECT_SKILLS.framerMotion
+      ],
+      backend: [
+        PROJECT_SKILLS.node,
+        PROJECT_SKILLS.express,
+        PROJECT_SKILLS.firebase,
+      ],
     },
-    live: "https://github.com/Arsh-sudo",
-    github: "https://github.com/Arsh-sudo",
+    live: "https://remix-researchmind-180858939674.asia-southeast1.run.app/",
+    github: "https://github.com/Arsh-sudo/ReMind",
     get content() {
       return (
         <div>
