@@ -434,5 +434,65 @@ const projects: Project[] = [
       );
     },
   },
+  {
+    id: "matchday",
+    category: "AI / Stadium Operations",
+    title: "Matchday AI",
+    src: "/assets/projects-screenshots/matchday/landing.png",
+    screenshots: ["landing.png"],
+    skills: {
+      frontend: [],
+      backend: [PROJECT_SKILLS.python],
+    },
+    live: "https://github.com/Arsh-sudo",
+    github: "https://github.com/Arsh-sudo",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono text-2xl text-center">
+            Unified Operations Brain for FIFA World Cup 2026
+          </TypographyP>
+          <TypographyP className="font-mono">
+            Enterprise-grade tactical command center for stadium operations managers.
+            Aggregates live crowd telemetry, predictive logistics, IoT sensor outputs,
+            and incident flows into one workspace. Features Gemini-powered Fan Concierge,
+            hardware sensor integration (accelerometer, barometer, light), and real-time
+            sustainability monitoring. Built with Kotlin, Jetpack Compose, and Material 3.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+        </div>
+      );
+    },
+  },
+  {
+    id: "devmemory",
+    category: "AI / Developer Tools",
+    title: "DevMemory",
+    src: "/assets/projects-screenshots/devmemory/landing.png",
+    screenshots: ["landing.png"],
+    skills: {
+      frontend: [PROJECT_SKILLS.react],
+      backend: [PROJECT_SKILLS.python, PROJECT_SKILLS.node, PROJECT_SKILLS.docker],
+    },
+    live: "https://github.com/Arsh-sudo",
+    github: "https://github.com/Arsh-sudo",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono text-2xl text-center">
+            Persistent memory layer for your development team
+          </TypographyP>
+          <TypographyP className="font-mono">
+            DevMemory ingests GitHub PRs, commits, and code changes into a graph database,
+            mapping author relationships and architectural decisions. Features hybrid semantic
+            search, an interactive 2D force-directed knowledge graph, and a human-in-the-loop
+            reinforcement loop. New engineers can query the codebase on day one without
+            interrupting senior team members.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+        </div>
+      );
+    },
+  },
 ];
 export default projects;
