@@ -68,6 +68,42 @@ export type Skill = {
   icon: ReactNode;
 };
 const PROJECT_SKILLS = {
+  kotlin: {
+    title: "Kotlin",
+    bg: "#7F52FF",
+    fg: "#fff",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
+  },
+  jetpackCompose: {
+    title: "Jetpack Compose",
+    bg: "#4285F4",
+    fg: "#fff",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetpackcompose/jetpackcompose-original.svg",
+  },
+  materialDesign: {
+    title: "Material Design 3",
+    bg: "#757575",
+    fg: "#fff",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+  },
+  gemini: {
+    title: "Gemini API",
+    bg: "#1A73E8",
+    fg: "#fff",
+    icon: "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
+  },
+  retrofit: {
+    title: "Retrofit",
+    bg: "#48B983",
+    fg: "#fff",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
+  },
+  okhttp: {
+    title: "OkHttp",
+    bg: "#F5A623",
+    fg: "#fff",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
+  },
   next: {
     title: "Next.js",
     bg: "black",
@@ -441,8 +477,12 @@ const projects: Project[] = [
     src: "/assets/projects-screenshots/matchday/landing.png",
     screenshots: ["landing.png"],
     skills: {
-      frontend: [],
-      backend: [PROJECT_SKILLS.python],
+      frontend: [PROJECT_SKILLS.kotlin,
+        PROJECT_SKILLS.jetpackCompose,
+        PROJECT_SKILLS.materialDesign,],
+      backend: [PROJECT_SKILLS.python,PROJECT_SKILLS.gemini,
+        PROJECT_SKILLS.retrofit,
+        PROJECT_SKILLS.okhttp,],
     },
     live: "https://github.com/Arsh-sudo",
     github: "https://github.com/Arsh-sudo",
