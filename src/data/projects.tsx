@@ -1,4 +1,5 @@
 import AceTernityLogo from "@/components/logos/aceternity";
+import { SiKotlin, SiJetpackcompose, SiMaterialdesign, SiGooglegemini, SiRetropie } from "react-icons/si";
 import SlideShow from "@/components/slide-show";
 import { Button } from "@/components/ui/button";
 import { TypographyH3, TypographyP } from "@/components/ui/typography";
@@ -72,37 +73,37 @@ const PROJECT_SKILLS = {
     title: "Kotlin",
     bg: "#7F52FF",
     fg: "#fff",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
+    icon: <SiKotlin />,
   },
   jetpackCompose: {
     title: "Jetpack Compose",
     bg: "#4285F4",
     fg: "#fff",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetpackcompose/jetpackcompose-original.svg",
+    icon: <SiJetpackcompose />,
   },
   materialDesign: {
     title: "Material Design 3",
     bg: "#757575",
     fg: "#fff",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+    icon: <SiMaterialdesign />,
   },
   gemini: {
     title: "Gemini API",
     bg: "#1A73E8",
     fg: "#fff",
-    icon: "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
+    icon: <SiGooglegemini />,
   },
   retrofit: {
     title: "Retrofit",
     bg: "#48B983",
     fg: "#fff",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
+    icon: <SiRetropie />,
   },
   okhttp: {
     title: "OkHttp",
     bg: "#F5A623",
     fg: "#fff",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
+    icon: <SiKotlin />,
   },
   next: {
     title: "Next.js",
