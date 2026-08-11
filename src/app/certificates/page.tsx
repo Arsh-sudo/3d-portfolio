@@ -33,6 +33,16 @@ const certificates = [
     color: "from-red-500 to-orange-500",
     logo: null,
   },
+  {
+    id: 4,
+    title: "Google PromptWars" ,
+    issuer: "Google" ,
+    date: "Aug 2026" ,
+    image: "/assets/certificates/google-promptwars.png" ,
+    verifyUrl: "https://certificate.hack2skill.com/verify/2026H2S06PWVCHL3-A00940" ,
+    color: "from-violet-500 to-blue-500" ,
+    logo: null,
+  },
 ];
 
 export default function CertificatesPage() {
